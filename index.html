@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="crt.css" />
+    <link rel="stylesheet" href="typewriter.css" />
+    <script type="module" src="app.js" defer></script>
+    <script type="module" src="cursor.js" defer></script>
+    <script type="module" src="commands.js" defer></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+    </style>
+    <title>Will_Chen.exe</title>
+  </head>
+  <body>
+    <div class="crt vignette"></div>
+    <main>
+      <div id="terminal">
+        <p>Welcome to my site.</p>
+      </div>
+      <div class="cmd-area">
+        <div class="cl-wrapper">
+          <textarea
+            id="command-line"
+            type="text"
+            autofocus
+            rows="1"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+          ></textarea>
+          <div class="cursor"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Type 'help' to see available commands.</p>
+    </footer>
+  </body>
+</html>

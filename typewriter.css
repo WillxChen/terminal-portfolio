@@ -1,0 +1,15 @@
+/* Animation */
+.typewriter{
+  width: 100%;
+  animation: typewriter 1.25s steps(44) 0s 1 normal both;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+@keyframes typewriter{
+  from{width: 0rem;}
+  to{width: 76em;}
+}
+
+/* background:
+linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+linear-gradient(#00DFFC 0 0) 0 0; */
